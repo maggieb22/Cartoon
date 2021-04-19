@@ -1,0 +1,22 @@
+Cartoon README
+
+Overview:
+	For my cartoon I decided I wanted to model an orca swimming in the ocean. I've been super interested in orcas since I was in elementary school since I'm from the PNW and 
+	we have some orcas near my house. I started this project by creating four classes, the cartoon class, constants, pane organizer, and orca. After getting the scene to show up in the App class
+	I moved on to making the PaneOrganizer. I made the borderpane, labels, buttons and then I made my orca in my orca class and gave it some methods to use in cartoon.
+	In cartoon I set up the timeline and the event handler. I then made two private classes, one for moving the orca forward on the timeline and the other one to respond to keypresses. 
+	For the keypresses, pressing the up key moves the orca up on the screen and the down button moves it down. By clicking the letter "C" the orca will change colors. I also made a constants
+	class so that way I could have all of my variables for sizes and dimensions stored there. I will further explain my methods and certain parts of my code using comment code within the classes.
+
+Design Choices:
+	My main design choices were to make a few buttons within pane organizer and the way that I created Orca and moved it. Within pane organizer I made four buttons, quit, and three that changed 
+	the background color in different ways. By clicking on Night mode, it makes the water darker which looks like night. By clicking Day mode it puts it back to the original settings which is day.
+	I also decided to add Weird mode which just makes the background weird colors. I really wanted to set it so that every time weird mode was clicked the background would turn a different color 
+	but i couldn't figure it out :(
+	Also the way I made my orca was a design choice cause it was different than the way alien was created. When I created the shapes I specified their locations, and then I used get and set translate to move
+	the orca. 
+
+Known Bugs:
+	Ok so this isn't really a bug but I thought I would mention it just in case. 
+	When you want to use the keyboard (up/down/C) you have to click the up or down arrows so that way its not selected on a button and then you can use the keyboard.
+	It really isn't a bug but I thought it was kinda weird that I had to do that and thought I would mention it :D
